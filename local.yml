@@ -3,6 +3,6 @@
   become: true
 
   tasks:
-    - name: install htop
-      dnf:
-        name: htop
+  - name: install htop
+    yum:
+      name: htop
