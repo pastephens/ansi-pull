@@ -4,5 +4,5 @@
 
   tasks:
   - name: install htop
-    yum:
+    package:
       name: htop
