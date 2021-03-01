@@ -3,6 +3,6 @@
   become: true
 
   tasks:
-  - name: install htop
+  - name: install tree
     package:
-      name: htop
+      name: tree
